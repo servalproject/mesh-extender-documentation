@@ -48,5 +48,5 @@ RX       ---> Pin 5  (TX)
 
 The final cable should look similar to this:  
 <!-- Using HTML because normal Markdown doesn't support parallel images -->
-<img src="images/programming-cable/programming-cable.jpg" width="49%"></img>
-<img src="images/programming-cable/programming-cable-usb.jpg" width="49%"></img>
+<img src="../images/programming-cable/programming-cable.jpg" width="49%"></img>
+<img src="../images/programming-cable/programming-cable-usb.jpg" width="49%"></img>
