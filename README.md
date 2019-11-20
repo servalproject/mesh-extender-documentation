@@ -10,4 +10,5 @@ Documentation for building and configuring Serval Mesh Extender devices.
 #### [Building the firmware](mesh-extender-firmware-build.md)  
 #### [Flashing the bootloader and firmware](mesh-extender-flash-process.md)  
 
-
+### Software
+#### [Setting up SSH access](ssh.md)
