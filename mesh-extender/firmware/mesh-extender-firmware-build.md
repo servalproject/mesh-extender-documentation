@@ -30,7 +30,7 @@ When building firmware for a second-generation Mesh Extender, use the `MeshExten
 2. `cd` into the repo: `cd serval-openwrt`
 3. Switch to the `MeshExtender2.0` branch: `git checkout MeshExtender2.0`
 4. Run `./scripts/install-deps-ubuntu` to install dependencies
-5. Run `./update`
+5. Run `./update`  
    **NOTE:** An internet connection is required throughout the build process, as some parts may download additional repositories.  
    **NOTE:** You may get persistent errors about missing `git` despite having it installed. A dirty fix to get past that is to edit `include/prereq-build.mk` and comment out lines 147-148.  
    **NOTE:** If you have Perl 5.26+, you will encounter an issue while compiling Automake due to a change in how Perl handles regular expressions (discovered [here](https://github.com/raspberrypi/noobs/issues/470#issuecomment-376256295)). To get around it, open `build_dir/host/automake-1.15/bin/automake.in`, go to line 3883, and replace `$text =~ s/\${` with `$text =~ s/\$\{`  
