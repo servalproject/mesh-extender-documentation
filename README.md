@@ -13,6 +13,7 @@ Documentation for building and configuring [second-generation Serval Mesh Extend
 
 ### Software
 #### [Setting up SSH access](software/ssh.md)
+#### [Send MeshMS messages via the command line](software/send-meshms-manually.md)
 
 ## Mesh Observer
 ### Hardware
