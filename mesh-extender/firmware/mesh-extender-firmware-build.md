@@ -23,6 +23,20 @@ Which can be installed alongside the above with: `sudo apt install csh gawk`
 
 
 ## Build process
+When building firmware for a second-generation Mesh Extender, use the `MeshExtender2.0` branch.
+
+### The `MeshExtender2.0` way
+1. Clone the repo: `git clone https://github.com/servalproject/openwrt.git serval-openwrt`
+2. `cd` into the repo: `cd serval-openwrt`
+3. Switch to the `MeshExtender2.0` branch: `git checkout MeshExtender2.0`
+4. Run `./scripts/install-deps-ubuntu` to install dependencies
+5. Run `./update`
+   **NOTE:** An internet connection is required throughout the build process, as some parts may download additional repositories.  
+   **NOTE:** You may get persistent errors about missing `git` despite having it installed. A dirty fix to get past that is to edit `include/prereq-build.mk` and comment out lines 147-148.  
+   **NOTE:** If you have Perl 5.26+, you will encounter an issue while compiling Automake due to a change in how Perl handles regular expressions (discovered [here](https://github.com/raspberrypi/noobs/issues/470#issuecomment-376256295)). To get around it, open `build_dir/host/automake-1.15/bin/automake.in`, go to line 3883, and replace `$text =~ s/\${` with `$text =~ s/\$\{`  
+   **NOTE:** Make sure you are using `libssl1.0-dev` and not a newer version, as the `tools/mkimage` make target requires an old version  
+6. The built firmware images will be available in `bin/ar71xx/`
+
 ### The `master` way
 1. Clone the repo: `git clone https://github.com/servalproject/openwrt.git serval-openwrt`
 2. `cd` into the repo: `cd serval-openwrt`
@@ -36,14 +50,3 @@ Which can be installed alongside the above with: `sudo apt install csh gawk`
    **NOTE:** If you have Perl 5.26+, you will encounter an issue while compiling Automake due to a change in how Perl handles regular expressions (discovered [here](https://github.com/raspberrypi/noobs/issues/470#issuecomment-376256295)). To get around it, open `build_dir/host/automake-1.15/bin/automake.in`, go to line 3938, and replace `$text =~ s/\${` with `$text =~ s/\$\{`  
    **NOTE:** Make sure you are using `libssl1.0-dev` and not a newer version, as the `tools/mkimage` make target requires an old version
 7. The built firmware images will be available in `bin/ar71xx/`
-
-### The `MeshExtender2.0` way
-1. Clone the repo: `git clone https://github.com/servalproject/openwrt.git serval-openwrt`
-2. `cd` into the repo: `cd serval-openwrt`
-3. Switch to the `MeshExtender2.0` branch: `git checkout MeshExtender2.0`
-4. Run `./update`
-   **NOTE:** An internet connection is required throughout the build process, as some parts may download additional repositories.  
-   **NOTE:** You may get persistent errors about missing `git` despite having it installed. A dirty fix to get past that is to edit `include/prereq-build.mk` and comment out lines 147-148.  
-   **NOTE:** If you have Perl 5.26+, you will encounter an issue while compiling Automake due to a change in how Perl handles regular expressions (discovered [here](https://github.com/raspberrypi/noobs/issues/470#issuecomment-376256295)). To get around it, open `build_dir/host/automake-1.15/bin/automake.in`, go to line 3883, and replace `$text =~ s/\${` with `$text =~ s/\$\{`  
-   **NOTE:** Make sure you are using `libssl1.0-dev` and not a newer version, as the `tools/mkimage` make target requires an old version  
-5. The built firmware images will be available in `bin/ar71xx/`
