@@ -22,7 +22,7 @@ Documentation for building and configuring [second-generation Serval Mesh Extend
 ### Firmware
 - [Flashing a GL-AR150](mesh-observer/firmware/ar150-flash-process.md)  
 - [Flashing a GL-AR750](mesh-observer/firmware/ar750-flash-process.md)  
-- [FLashing a Dragino2](mesh-observer/firmware/dragino-flash-process.md)  
+- [Flashing a Dragino2](mesh-observer/firmware/dragino-flash-process.md)  
 
 ### Software
 
