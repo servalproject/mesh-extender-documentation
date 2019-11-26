@@ -14,6 +14,6 @@ As mentioned above, we will be using the toolchain found in the [Serval OpenWRT 
 2. `cd` into the repository: `cd u-boot_mod/u-boot-domino-2015/`
 3. Open `Makefile` in a text editor
 4. Replace line 4 with `export TOOLPATH=<toolchain_path>` where `<toolchain_path>` is the absolute path to the toolchain provided in the Serval OpenWRT repository. (e.g. `/home/user/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/`)
-5. Run `make`
+5. Run `make`  
    **NOTE:** If the build process fails on `fsdata.c` with an error like `fsdata.c:333:1: error: expected expression before ',' token`, open `u-boot-domino-2015/u-boot/httpd/fsdata.c` with a text editor, scroll to the line in question (line 333 in this case), and remove the comma before `0 };`.
 6. The built U-Boot image will be at `u-boot-domino-2015/bin/uboot_for_domino.bin`
