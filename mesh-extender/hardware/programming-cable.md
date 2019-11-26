@@ -20,8 +20,8 @@ Yellow (RXD) ---> Pin 5  (TX)
 
 The final cable should look similar to this:  
 <!-- Using HTML because normal Markdown doesn't support parallel images -->
-<img src="images/programming-cable/ftdi-breakout.jpg" width="49%"></img>
-<img src="images/programming-cable/ftdi-cable.jpg" width="49%"></img>
+<img src="../images/programming-cable/ftdi-breakout.jpg" width="49%"></img>
+<img src="../images/programming-cable/ftdi-cable.jpg" width="49%"></img>
 
 ## USB-UART and Cable
 ### Required materials
