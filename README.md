@@ -17,6 +17,7 @@ Documentation for building and configuring [second-generation Serval Mesh Extend
 - [Setting up SSH access](mesh-extender/software/ssh.md)  
 - [Send MeshMS messages via the command line](mesh-extender/software/send-meshms-manually.md)  
 - [Starting and stopping daemons](mesh-extender/software/using-daemons.md)
+- [Status and diagnostics pages](mesh-extender/software/diagnostics-pages.md)
 
 ## Mesh Observer
 ### Hardware
