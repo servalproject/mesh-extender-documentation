@@ -13,6 +13,7 @@ Documentation for building and configuring [second-generation Serval Mesh Extend
 
 ### Software
 - [Configuring network interfaces](mesh-extender/software/network-configuration.md)
+- [Configuring Servald](mesh-extender/software/servald-configuration.md)
 - [Setting up SSH access](mesh-extender/software/ssh.md)  
 - [Send MeshMS messages via the command line](mesh-extender/software/send-meshms-manually.md)  
 
