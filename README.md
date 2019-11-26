@@ -12,6 +12,7 @@ Documentation for building and configuring [second-generation Serval Mesh Extend
 - [Flashing the bootloader and firmware](mesh-extender/firmware/mesh-extender-flash-process.md)  
 
 ### Software
+- [Configuring network interfaces](mesh-extender/software/network-configuration.md)
 - [Setting up SSH access](mesh-extender/software/ssh.md)  
 - [Send MeshMS messages via the command line](mesh-extender/software/send-meshms-manually.md)  
 
