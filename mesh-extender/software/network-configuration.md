@@ -5,7 +5,7 @@ When booting, the `/etc/rc.d/S13pre_wireless_setup` and `/etc/rc.d/S15wireless_s
 
 The Ethernet interface configuration can also be set via the [setup-meshex script](https://github.com/servalproject/serval-mesh-observer-packet-capture/blob/master/scripts/setup-meshex.sh). (This also enables persistent SSH access)
 
-The below table summarises the default network configuration:
+The below table summarises the default network configuration (`X` characters indicate randomly-generated value):
 
 | Interface name   | Interface description                           | IP Addresses       |
 | ---------------- | ----------------------------------------------- | ------------------ |
