@@ -1,6 +1,8 @@
 # Mesh Extender Documentation
 Documentation for building and configuring [second-generation Serval Mesh Extender](http://developer.servalproject.org/dokuwiki/doku.php?id=content:meshextender:2ng) devices, [Serval Mesh Observer](http://developer.servalproject.org/dokuwiki/doku.php?id=content:meshobserver:main_page) monitoring devices, and other peripherals.
 
+This is now the preferred location for Mesh Extender documentation, so new articles should be written here instead of the wiki.
+
 ## Mesh Extender
 ### Hardware  
 - [Building a programming cable](mesh-extender/hardware/programming-cable.md)  
