@@ -32,4 +32,4 @@ This is now the preferred location for Mesh Extender documentation, so new artic
 - [Flashing a Dragino2](mesh-observer/firmware/dragino-flash-process.md)  
 
 ### Software
-
+- [Capturing and analysing packets](mesh-observer/software/capturing-packets.md)
