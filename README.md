@@ -24,7 +24,7 @@ This is now the preferred location for Mesh Extender documentation, so new artic
 
 ## Mesh Observer
 ### Hardware
-
+- [Building a UHF breakout](mesh-observer/hardware/uhf-breakout.md)
 
 ### Firmware
 - [Flashing a GL-AR150](mesh-observer/firmware/ar150-flash-process.md)  
