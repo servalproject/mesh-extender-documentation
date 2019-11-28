@@ -10,8 +10,8 @@ This design allows us to transparently shim the Mesh Observer into an existing M
 
 **NOTE:** When soldering the board together, make sure that the male connector is placed as J1 and the female connector is placed as J2. The pinout is *not* symmetrical and *will* cause damage if soldered the wrong way around and plugged in.
 
-<img src="../images/breakout-top-down.jpg" width="49%"></img>
-<img src="../images/breakout-female.jpg" width="49%"></img>
+<img src="../images/mesh-observer-build/breakout-top-down.jpg" width="49%"></img>
+<img src="../images/mesh-observer-build/breakout-female.jpg" width="49%"></img>
 
 ## Making the wires
 The breakout is connected to several USB-UART adaptors through some custom-made wires. These connect a single line to two adaptors so that they can be monitored at two serial speeds simultaneously.
@@ -32,9 +32,9 @@ Between them is a single wire that connects each of the pins together.
 12. Repeat steps 1-11 an additional 3 times for a full set of wires
 
 The final result should look like the pictures below:  
-<img src="../images/wires-joined.jpg" width="32%"></img>
-<img src="../images/wires-set.jpg" width="32%"></img>
-<img src="../images/wires-split.jpg" width="32%"></img>
+<img src="../images/mesh-observer-build/wires-joined.jpg" width="32%"></img>
+<img src="../images/mesh-observer-build/wires-set.jpg" width="32%"></img>
+<img src="../images/mesh-observer-build/wires-split.jpg" width="32%"></img>
 
 ## Putting it all together
 1. Connect the 2-pin connector end of one wire to pin 1 of the breakout
@@ -46,6 +46,6 @@ The final result should look like the pictures below:
 7. Insert all four USB adaptors into a USB hub
 
 The final result should look like the pictures below:  
-<img src="../images/jig.jpg" width="32%"></img>
-<img src="../images/jig-breakout-closeup-angled.jpg" width="32%"></img>
-<img src="../images/jig-usbhub-closeup.jpg" width="32%"></img>
+<img src="../images/mesh-observer-build/jig.jpg" width="32%"></img>
+<img src="../images/mesh-observer-build/jig-breakout-closeup-angled.jpg" width="32%"></img>
+<img src="../images/mesh-observer-build/jig-usbhub-closeup.jpg" width="32%"></img>
