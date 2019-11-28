@@ -8,7 +8,7 @@
 1. Disconnect the power cable from the Mesh Extender
 2. Plug the UHF breakout into the Mesh Extender, then the power cable into the UHF breakout
 3. Connect an Ethernet cable between the network (or your computer) and the Mesh Observer
-4. Connect a micro-USB cable between a power supply and the Mesh Observer
+4. Connect a power cable between a power supply and the Mesh Observer
 
 The Mesh Extender and Observer will both begin booting. This will take a few minutes to complete.
 Once the Mesh Observer has booted, it will begin accepting SSH connections at `192.168.1.1` with `root` as the username and password.
