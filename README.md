@@ -34,3 +34,7 @@ This is now the preferred location for Mesh Extender documentation, so new artic
 
 ### Software
 - [Capturing and analysing packets](mesh-observer/software/capturing-packets.md)
+- [Configuring network interfaces](mesh-extender/software/network-configuration.md)
+- [Configuring system time](mesh-extender/software/system-time.md)
+- [Setting up SSH access](mesh-extender/software/ssh.md) 
+- [Starting and stopping daemons](mesh-extender/software/using-daemons.md)
